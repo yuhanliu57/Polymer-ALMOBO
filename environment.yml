@@ -1,0 +1,23 @@
+name: al-mobo-multifunctional-polymers
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - joblib
+  - pytorch>=2.0.1
+  - rdkit
+  - pip
+  - pip:
+      - botorch==0.17.2
+      - gpytorch==1.15.2
+      - pyro-ppl>=1.8.4
+      - gensim>=4,<5
+      - mol2vec==0.2.2
+      - shap
+      - polymetrix==0.2.0
